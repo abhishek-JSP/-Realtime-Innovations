@@ -1,0 +1,88 @@
+
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91.5%;
+    background-color: #fff;
+    border-bottom: 1px solid #E5E5E5;
+    text-align: left;
+    padding: 0px 15px;
+    line-height: 10px;
+    
+}
+
+.del_btn button{
+    background-color: red;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+}
+
+.edit_btn button{
+    background-color:blue;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    margin-left: 460px;
+}
+
+ /* Media Query for low resolution  Tablets, Ipads */ 
+ @media (min-width: 500px) and (max-width: 820px) {
+    .card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 91.5%;
+        background-color: #fff;
+        border-bottom: 1px solid #E5E5E5;
+        text-align: left;
+        padding: 0px 15px;
+        line-height: 10px;
+        /* font-size: 25px; */
+    }
+
+    .del_btn button{
+        background-color: red;
+        border: none;
+        color: #fff;
+        font-size: 30px;
+    }
+    .edit_btn button{
+        background-color:blue;
+        border: none;
+        color: #fff;
+        font-size: 30px;
+        margin-left: 400px;
+    }
+ }
+/* Media Query for low resolution Mobile */ 
+@media only screen and (max-width: 500px) { 
+    .card{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 91.5%;
+        background-color: #fff;
+        border-bottom: 1px solid #E5E5E5;
+        text-align: left;
+        padding: 0px 15px;
+        line-height: 10px;
+    }
+
+    .del_btn button{
+        background-color: red;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .edit_btn button{
+        background-color:blue;
+        border: none;
+        color: #fff;
+        font-size: 20px;
+        margin-left: 100px;
+    }
+}
